@@ -1,0 +1,13 @@
+{
+  "include": ["./typed-router.d.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["unplugin-vue-router/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "module": "ES6",
+    "moduleResolution": "Bundler"
+  }
+}
